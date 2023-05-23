@@ -24,7 +24,7 @@ const Navbar = () =>{
              <div className={`flex items-center ${shouldApplyMargin ? 'ml-20' : ''}`}>
                 <img
         src={logo}
-        alt=""
+        alt="error"
         className="h-8 w-auto"
       />
        <span className={`ml-5 ${shouldApplyMargin ? 'text-3xl' : ''} font-bold `}><span className="text-red-500">M</span>edisure<span className="text-red-500">H</span>ealth<span className="text-red-500">S</span>ervices</span>
